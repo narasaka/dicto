@@ -1,5 +1,0 @@
-#!/usr/bin/bash
-
-sudo mv ./dicto.py /usr/local/bin/dicto.py
-sudo mv ./dicto /usr/local/bin/dicto
-sudo mv ./dicto_stop /usr/local/bin/dicto_stop
