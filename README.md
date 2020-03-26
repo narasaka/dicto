@@ -3,16 +3,16 @@ basically defines words you highlight/select whatever you wanna call it
 
 ![](dictodemo.gif)
 
-## Installation
+## Trying the program
     
     git clone https://github.com/narasaka/dicto.git
     cd dicto
-    ./install
+    ./dicto --version
     
 ### Usage
 * To run dicto, simply type
 
-         dicto
+         ./dicto
     
 dicto runs in the background, so you can close your terminal now.
 
@@ -26,7 +26,7 @@ and press the hotkey <kbd>alt</kbd>+<kbd>T</kbd> (default)
 
 * To stop dico, type
 
-        dicto --stop
+        ./dicto --stop
 
 ### Dependencies
 Dicto needs pyperclip, which also requires xclip (recommended) or xsel.
@@ -46,11 +46,6 @@ On Arch:
 
         sudo pacman install xclip
       
-### Uninstall
-To uninstall run:
-
-        cd dicto
-        ./uninstall
         
 ### Donate to me
 Don't. Ily.
