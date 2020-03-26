@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo rm -rf /usr/local/bin/dictocaller.py
+sudo rm -rf /usr/local/bin/dicto
+
+echo dicto v0.0.1 uninstalled.

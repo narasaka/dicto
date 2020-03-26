@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+
+import argparse
+import os
+
+def main():
+    parser = argparse.ArgumentParser(description='Define your words in 1 (well.. 2) key press.', prog='dicto')
+    parser.add_argument('-s','--stop', help='kills the program', action='store_true')
+    parser.add_argument('-v','--version', help='program version', action='store_true')
+    args = parser.parse_args()
+
+    if args.stop:
+        os.system('pkill -f dictocaller.py')
+        print('dicto terminated.')
+
+    if args.version:
+        print('dicto v0.0.1(narasaka)')
+
+    if args.stop == False and args.version == False:
+        os.system('nohup python3 -u /usr/local/bin/dictocaller.py > dicto.log &')
+        print('dicto is running.')
+        print('you can close your terminal now.')
+        print('enjoy...')
+
+
+if __name__ == '__main__':
+    main()
