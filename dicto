@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+nohup python -u /usr/local/bin/dicto.py > dicto_output.log &
