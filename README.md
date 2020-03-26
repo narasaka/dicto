@@ -12,7 +12,7 @@ basically defines words you highlight/select whatever you wanna call it
 ### Usage
 * To run dicto, simply type
 
-         ./dicto
+      ./dicto
     
 dicto runs in the background, so you can close your terminal now.
 
@@ -26,7 +26,7 @@ and press the hotkey <kbd>alt</kbd>+<kbd>T</kbd> (default)
 
 * To stop dico, type
 
-        ./dicto --stop
+      ./dicto --stop
 
 ### Dependencies
 Dicto needs pyperclip, which also requires xclip (recommended) or xsel.
@@ -34,17 +34,17 @@ Install them! I dare you...
 
 On Debian:
 
-        sudo apt-get install xclip
+    sudo apt-get install xclip
         
 On CentOS 7 / RHEL 7 / Fedora:
 
-        sudo yum install xclip
-        or
-        dnf install xclip
+    sudo yum install xclip
+    or
+    dnf install xclip
         
 On Arch:
 
-        sudo pacman install xclip
+    sudo pacman install xclip
   
 
         
