@@ -1,5 +1,5 @@
 # dicto
-basically defines words you highlight/select whatever you wanna call it
+looks up definitions of words that you highlight/select whatever you wanna call it
 
 ![](dictodemo.gif)
 
