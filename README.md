@@ -3,7 +3,7 @@ basically defines words you highlight/select whatever you wanna call it
 
 ![](dictodemo.gif)
 
-## The program (no install)
+## The program
     
     git clone https://github.com/narasaka/dicto.git
     cd dicto
