@@ -3,7 +3,7 @@ basically defines words you highlight/select whatever you wanna call it
 
 ![](dictodemo.gif)
 
-## The program
+## The program (no install)
     
     git clone https://github.com/narasaka/dicto.git
     cd dicto
@@ -28,6 +28,15 @@ and press the hotkey <kbd>alt</kbd>+<kbd>T</kbd> (default)
 * To stop dicto, type
 
       ./dicto --stop
+
+### Install
+If everything works and you really want it,
+
+    sudo dpkg -i dicto_v0.0.1.deb
+
+Now you can run everything without the "./"
+
+    dicto
 
 ### Dependencies
 Dicto needs pyperclip, which also requires xclip (recommended) or xsel.
