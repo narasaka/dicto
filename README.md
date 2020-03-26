@@ -26,7 +26,7 @@ and press the hotkey <kbd>alt</kbd>+<kbd>T</kbd> (default)
 
 * To stop dico, type
 
-        dicto_stop
+        dicto --stop
 
 ### Dependencies
 Dicto needs pyperclip, which also requires xclip (recommended) or xsel.
@@ -45,6 +45,12 @@ On CentOS 7 / RHEL 7 / Fedora:
 On Arch:
 
         sudo pacman install xclip
+      
+### Uninstall
+To uninstall run:
+
+        cd dicto
+        ./uninstall
         
 ### Donate to me
 Don't. Ily.
