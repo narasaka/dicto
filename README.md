@@ -12,7 +12,7 @@ basically defines words you highlight/select whatever you wanna call it
 ### Usage
 * To run dicto, simply type
 
-    dicto
+         dicto
     
 dicto runs in the background, so you can close your terminal now.
 
