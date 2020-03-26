@@ -30,7 +30,7 @@ and press the hotkey <kbd>alt</kbd>+<kbd>T</kbd> (default)
       ./dicto --stop
 
 ### Install
-If everything works and you really want it,
+If everything works and you really want it (for Debian users),
 
     sudo dpkg -i dicto_v0.0.1.deb
 
