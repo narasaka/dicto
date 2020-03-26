@@ -21,25 +21,7 @@ def show_notif(word, alert):
     Notify.uninit()
 
 
-def on_activate():
-    controller = Controller()
-
-    #simulate key presses to copy to clipboard
-    controller.press(Key.ctrl)
-    controller.press('c')
-    controller.release(Key.ctrl)
-    controller.release('c')
-    print('Copied to clipboard.')
-
-    clipboard = pyperclip.paste() #returns contents of clipboard
-    print('Clipboard extracted.')
-
-    #scraping the definition
-    url = 'https://www.dictionary.com/browse/'+clipboard
-    page = requests.get(url)
-    soup = bs4.BeautifulSoup(page.text, 'lxml')
-    print('Soup ready.')
-
+def decision():
 
     if 'https://www.dictionary.com/misspelling' in page.url: #if word is not found in dictionary
         alert = 'Word/phrase not found. Is that english?'
@@ -85,6 +67,31 @@ def on_activate():
                 print(clipboard + ' defined.')
                 show_notif(word, define) #display notification
                 define = ''
+
+def on_activate():
+    controller = Controller()
+
+    #simulate key presses to copy to clipboard
+    controller.press(Key.ctrl)
+    controller.press('c')
+    controller.release(Key.ctrl)
+    controller.release('c')
+    print('Copied to clipboard.')
+    global clipboard
+    clipboard = pyperclip.paste() #returns contents of clipboard
+    print('Clipboard extracted.')
+
+    #scraping the definition
+    url = 'https://www.dictionary.com/browse/'+clipboard
+    try:
+        global page
+        global soup
+        page = requests.get(url)
+        soup = bs4.BeautifulSoup(page.text, 'lxml')
+        print('Soup ready.')
+        decision()
+    except Exception:
+        show_notif('Error','Request did not through. Check your internet connection.')
 
 
 
