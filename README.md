@@ -3,7 +3,7 @@ basically defines words you highlight/select whatever you wanna call it
 
 ![](dictodemo.gif)
 
-## Trying the program
+## The program
     
     git clone https://github.com/narasaka/dicto.git
     cd dicto
@@ -45,7 +45,8 @@ On CentOS 7 / RHEL 7 / Fedora:
 On Arch:
 
         sudo pacman install xclip
-      
+  
+
         
 ### Donate to me
 Don't. Ily.
