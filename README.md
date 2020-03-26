@@ -10,11 +10,13 @@ basically defines words you highlight/select whatever you wanna call it
     ./install
     
 ### Usage
-To run dicto, simply type
+* To run dicto, simply type
 
     dicto
     
-Select the word you want, 
+dicto runs in the background, so you can close your terminal now.
+
+* Select the word you want, 
 
 ![](selectword.png)
 
@@ -22,7 +24,7 @@ and press the hotkey <kbd>alt</kbd>+<kbd>T</kbd> (default)
 
 ![](notifs.png)
 
-To stop dico, type
+* To stop dico, type
 
         dicto_stop
 
