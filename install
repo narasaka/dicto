@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 sudo cp ./dictocaller.py /usr/local/bin/dictocaller.py
 sudo cp ./dicto /usr/local/bin/dicto
