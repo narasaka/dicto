@@ -24,7 +24,7 @@ and press the hotkey <kbd>alt</kbd>+<kbd>T</kbd> (default)
 
 ![](notifs.png)
 
-* To stop dico, type
+* To stop dicto, type
 
       ./dicto --stop
 
