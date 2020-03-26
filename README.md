@@ -7,6 +7,7 @@ basically defines words you highlight/select whatever you wanna call it
     
     git clone https://github.com/narasaka/dicto.git
     cd dicto
+    pip3 install -r requirements.txt
     ./dicto --version
     
 ### Usage
