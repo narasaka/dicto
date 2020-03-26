@@ -17,7 +17,7 @@ def main():
         print('dicto v0.0.1(narasaka)')
 
     if args.stop == False and args.version == False:
-        os.system('nohup python3 -u /usr/local/bin/dictocaller.py > dicto.log &')
+        os.system('nohup dictocaller.py >/dev/null 2>&1 &')
         print('dicto is running.')
         print('you can close your terminal now.')
         print('enjoy...')
