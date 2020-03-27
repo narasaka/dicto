@@ -34,7 +34,7 @@ and press the hotkey <kbd>alt</kbd>+<kbd>T</kbd> (default)
 ### Install
 If everything works and you really want it,
 
-    pip install dicto-pkg
+    pip3 install dicto-pkg
     
 Or alternatively (for Debian users),
 
@@ -73,6 +73,10 @@ If dicto outputs 2 or more of the same notification pop ups,
 
     dicto --stop
     dicto
+    
+### Uninstalling
+
+    sudo -H pip3 uninstall dicto-pkg
     
 ### Donate to me
 Don't. Ily.
