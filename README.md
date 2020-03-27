@@ -1,7 +1,9 @@
 # dicto
 looks up definitions of words that you highlight/select whatever you wanna call it
 
-![](dictodemo.mp4)
+![](dictodemo.gif)
+
+https://pypi.org/project/dicto-pkg/
 
 ## The program
     
