@@ -30,10 +30,14 @@ and press the hotkey <kbd>alt</kbd>+<kbd>T</kbd> (default)
       ./dicto --stop
 
 ### Install
-If everything works and you really want it (for Debian users),
+If everything works and you really want it,
+
+    pip install dicto-pkg
+    
+Or alternatively (for Debian users),
 
     sudo dpkg -i dicto_v0.0.1.deb
-
+    
 Now you can run everything without the "./"
 
     dicto
@@ -56,7 +60,17 @@ On Arch:
 
     sudo pacman install xclip
   
+### Troubleshooting
+If dicto does not work, try
 
-        
+    git clone https://github.com/narasaka/dicto.git
+    cd dicto
+    pip3 install -r requirements.txt
+
+If dicto outputs 2 or more of the same notification pop ups,
+
+    dicto --stop
+    dicto
+    
 ### Donate to me
 Don't. Ily.
