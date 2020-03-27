@@ -1,7 +1,7 @@
 # dicto
 looks up definitions of words that you highlight/select whatever you wanna call it
 
-![](dictodemo.gif)
+![](dictodemo.mp4)
 
 ## The program
     
